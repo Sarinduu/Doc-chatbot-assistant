@@ -14,7 +14,6 @@ Built using **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio
 * Retrieves relevant chunks using FAISS vector similarity search
 * Generates answers using Google's Gemini model
 * Simple and clean Gradio-based chatbot UI
-* Displays "Thinking..." feedback before answering
 * Logs questions and answers with timestamps
 
 ---
