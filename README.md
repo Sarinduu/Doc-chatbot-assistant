@@ -55,13 +55,25 @@ pip install -r requirements.txt
 
 Place your `.pdf` and `.txt` files in the folder specified in the `.env` (`source_materials/`). A placeholder file `content_placeholder.txt` is provided with sample data and questions. Remove it before use.
 
-### 6. Launch the Chatbot
+### 6. (Optional) Register Virtual Environment with Jupyter
+
+If you are using a virtual environment, it's recommended to register it with Jupyter so you can run the notebook using that environment:
+
+```bash
+python -m ipykernel install --user --name=chatbot-env --display-name "ChatBot ENV"
+```
+
+### 7. Launch the Chatbot
+
+Start Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-Open `doc-chatbot.ipynb` and run all cells.
+Open the file `doc-chatbot.ipynb` from the interface. If you registered your virtual environment, make sure to select the **"ChatBot ENV"** kernel from the Kernel menu.
+
+Then run all the cells in the notebook to start the chatbot interface.
 
 ---
 
