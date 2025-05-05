@@ -1,0 +1,32 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+chatbot-env/
+venv/
+env/
+ENV/
+
+# Ignore all files in source_materials EXCEPT content_placeholder.txt
+source_materials/*
+!source_materials/content_placeholder.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+anaconda_projects/
+
+# Gradio runtime data
+.gradio/
+
+# Environment variables
+.env
+
+# Logs and temporary files
+*.log
+answer_log.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db

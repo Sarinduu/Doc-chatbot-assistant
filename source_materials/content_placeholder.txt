@@ -1,0 +1,25 @@
+source_materials folder
+==========================
+
+Place your PDF and TXT files in this folder. These files will be used by the chatbot to answer questions.
+You can add lecture notes, study materials, manuals, or any text-based content.
+
+IMPORTANT: Remove this content_placeholder.txt file before running the chatbot with your own materials.
+
+-----------------------------------------------------
+
+Sample Content (for example.txt or notes.txt):
+
+Docker is a platform used to develop, ship, and run applications inside containers.
+It helps ensure consistency across different environments.
+Docker uses images to create containers, and these containers are isolated environments.
+
+-----------------------------------------------------
+
+Sample Questions:
+
+- What is Docker?
+- How does Docker help developers?
+- What are Docker containers?
+- Explain the benefit of using containers.
+- Does Docker use virtualization?
