@@ -8,7 +8,7 @@ It combines **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio
 
 ## Features
 
-* Accepts both PDF and TXT files
+* Accepts both PDF and TXT files (TXT files are preferred for better answer quality)
 * Extracts and splits documents into meaningful text chunks
 * Embeds content using SentenceTransformers
 * Retrieves relevant chunks using FAISS vector similarity search
