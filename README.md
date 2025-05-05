@@ -23,7 +23,7 @@ Built using **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/doc-chatbot-assistant.git
+git clone https://github.com/Sarinduu/Doc-chatbot-assistant.git
 cd doc-chatbot-assistant
 ```
 
@@ -66,7 +66,7 @@ Open `doc-chatbot.ipynb` and run all cells.
 
 ---
 
-## 📓 Notebook Step Overview
+## Notebook Step Overview
 
 1. **Imports** – All required libraries are loaded and checked
 2. **Environment Setup** – Loads `.env` variables for Gemini API key and content path
