@@ -43,7 +43,7 @@ cp .env.example .env
 Edit `.env` and set:
 
 * Your Gemini API key
-* Path to the folder with `.pdf` or `.txt` files
+* Path to the folder with `.pdf` or `.txt` files. Default location: `source_materials`
 * A custom document title (used in UI)
 
 ### 4. Install Requirements
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### 5. Add Your Documents
 
-Place your `.pdf` and `.txt` files in the folder specified in the `.env` (e.g., `source_materials/`). A placeholder file `content_placeholder.txt` is provided with sample data and questions. Remove it before use.
+Place your `.pdf` and `.txt` files in the folder specified in the `.env` (`source_materials/`). A placeholder file `content_placeholder.txt` is provided with sample data and questions. Remove it before use.
 
 ### 6. Launch the Chatbot
 
