@@ -3,6 +3,7 @@
 An AI-powered chatbot that answers questions using the content of your uploaded **PDF** and **TXT** documents.
 
 It combines **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio** to create a reliable, context-aware assistant that responds based solely on the information found in your documents.
+
 ---
 
 ## Features
