@@ -1,9 +1,8 @@
 # doc-chatbot-assistant
 
-An AI-powered chatbot that answers questions based on the content of your uploaded **PDF** and **TXT** documents.
+An AI-powered chatbot that answers questions using the content of your uploaded **PDF** and **TXT** documents.
 
-Built using **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio**. The project demonstrates how to build a Retrieval-Augmented Generation (RAG) chatbot entirely within a Jupyter Notebook, leveraging document embeddings and the Gemini API for reliable context-based answers.
-
+It combines **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio** to create a reliable, context-aware assistant that responds based solely on the information found in your documents.
 ---
 
 ## Features
