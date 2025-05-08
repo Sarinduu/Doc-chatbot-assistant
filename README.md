@@ -1,8 +1,8 @@
 # doc-chatbot-assistant
 
-An AI-powered chatbot that answers questions using the content of your uploaded **PDF** and **TXT** documents.
+An AI-powered chatbot built on the Retrieval-Augmented Generation (RAG) architecture. It allows users to ask natural language questions based on the content of their own **PDF** and **TXT** documents.
 
-It combines **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio** to create a reliable, context-aware assistant that responds based solely on the information found in your documents.
+It combines **Google Gemini**, **FAISS**, **SentenceTransformers**, and **Gradio** to deliver reliable, context-aware answers grounded entirely in your uploaded files.
 
 ---
 
