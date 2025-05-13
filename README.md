@@ -86,8 +86,9 @@ Then run all the cells in the notebook to start the chatbot interface.
 4. **Text Chunking** – Splits long text into chunks for better embedding and retrieval
 5. **Embedding & Indexing** – Creates sentence embeddings and indexes them with FAISS
 6. **Semantic Search** – Retrieves chunks most relevant to the user's question
-7. **Gemini Generation** – Sends chunks and question to Gemini model to generate an answer
-8. **Gradio UI** – A chatbot interface is created to ask and receive answers interactively
+7. **Connect to Gemini Model** – Sets up the Google Gemini model using the google-genai client
+8. **Answer Generation** – Sends the prompt (question + chunks) to Gemini and receives a context-aware response
+9. **Gradio UI** – Builds an interactive chatbot interface for asking questions and displaying answers
 
 ---
 
